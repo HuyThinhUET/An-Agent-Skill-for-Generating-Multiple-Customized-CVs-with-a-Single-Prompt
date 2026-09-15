@@ -1,0 +1,38 @@
+# This is a public repository. Ignore everything unless it is explicitly
+# listed below, so private application data cannot be staged by accident.
+*
+
+!.gitignore
+!README.md
+!PROMPT.md
+!LICENSE
+!.agents/
+!.agents/**
+!input/
+!input/current-CV/
+!input/current-CV/sample-ai-engineer-cv.pdf
+!input/current-CV/sample-ai-engineer-cv.tex
+!input/current-CV/sample-software-engineer-cv.pdf
+!input/CV-feedback/
+!input/CV-feedback/sample-feedback.txt
+!input/personal-information/
+!input/personal-information/profile.example.txt
+!input/projects-information/
+!input/projects-information/masac.md
+!input/projects-information/mabe-mouse-behavior-detection.md
+!input/projects-information/multimodal-product-category-classification.md
+!input/projects-information/summary/
+!input/projects-information/summary/masac.md
+!input/projects-information/summary/mabe-mouse-behavior-detection.md
+!input/projects-information/summary/multimodal-product-category-classification.md
+!input/target-JD/
+!input/target-JD/sample.txt
+!input/JD-library/Waitlist/sample.txt
+
+# These are always generated locally, even in an explicitly allowed path.
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

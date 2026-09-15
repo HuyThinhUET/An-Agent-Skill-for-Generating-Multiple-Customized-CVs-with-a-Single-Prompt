@@ -1,0 +1,204 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[scale=0.90,lf]{FiraMono}
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\usepackage{tgheros}
+\usepackage[T1]{fontenc}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\renewcommand*\familydefault{\sfdefault}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-1pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\huge Tran Huy Thinh} \\ \vspace{4pt}
+    
+    {\large AI Engineer Intern | ML | NLP/LLM | Computer Vision} \\ \vspace{6pt}
+    
+    \small 
+    \faPhone* \texttt{[redacted]} \hspace{6pt} $|$ \hspace{6pt}
+    \faEnvelope \hspace{2pt} \texttt{email redacted} \hspace{6pt} $|$ \hspace{6pt}
+    \faGithub \hspace{2pt} \href{https://github.com/HuyThinhUET}{\texttt{github.com/HuyThinhUET}} \hspace{6pt} $|$ \hspace{6pt}
+    \faMapMarker* \hspace{2pt}\texttt{Ha Noi, Vietnam}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{VNU University of Engineering and Technology}{Sep 2023 -- Expected Jun 2027}
+{Bachelor of Information Technology}{Hanoi, Vietnam}
+\resumeItemListStart
+    \resumeItem{Cumulative GPA: 3.70 / 4.00}
+    \resumeItem{Most recent academic-year GPA: 3.90 / 4.00}
+\resumeItemListEnd
+
+\resumeSubheading
+{Thai Nguyen High School for the Gifted}{Aug 2020 -- May 2023}
+{Specialization: Informatics}{Thai Nguyen, Vietnam}
+\resumeItemListStart
+    \resumeItem{Overall GPA: 9.0 / 10; Specialized Informatics GPA: 9.8 / 10}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{AI Research Assistant}{Apr 2025 -- Present}
+{Intelligent Software Engineering Laboratory (iSE)}{VNU-UET}
+\resumeItemListStart
+    \resumeItem{\textbf{Multi-Agent Systems:} Designed and implemented components for automated multi-agent system (MAS) generation and error prediction in generated MAS code, combining ML-based features, prompt engineering, and LLM-based reasoning.}
+    \resumeItem{\textbf{Archival Document Processing:} Developed an AI-assisted pipeline combining rule-based checks, semantic search, clustering, ML/DL, and LLM APIs to organize, classify, and process large-scale digitized documents.}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{PUBLICATIONS}
+\resumeItemListStart
+    \resumeItem{Trung-Hieu Nguyen, \textbf{Huy-Thinh Tran}, Quang-Hung Trinh, Tung-Thuy Pham, Thu-Trang Nguyen, Son Nguyen, and Hieu Dinh Vo. \href{https://ieeexplore.ieee.org/document/11309450}{\textit{MASAC: Abstract-Then-Concretize Automated Design of Multi-Agent System}}.\\
+    \textit{17th International Conference on Knowledge and Systems Engineering (KSE 2025).}}
+    \vspace{-4pt}
+    \begin{itemize}
+        \item\small{Co-developed the MASAC framework; contributed to implementation, experiments, and evaluation for LLM-based multi-agent system design.}
+    \end{itemize}\vspace{-4pt}
+\resumeItemListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{ACHIEVEMENTS}
+\resumeItemListStart
+    \resumeItem{\textbf{Informatics Olympiad:} Third Prize -- National Olympiad in Informatics (2023); Consolation Prize -- National Olympiad in Informatics (2022); First Prize -- Provincial Olympiad in Informatics (2023)}
+    \resumeItem{\textbf{Academic Excellence Scholarship:} Awarded in Semesters 4 and 5}
+    \resumeItem{\textbf{Competitive Programming:} 54th Place -- 2022 ICPC Vietnam National Contest; 56th Place -- Code Tour 2024}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{MABe Challenge -- Mouse Behavior Detection (Team of 3)}}{Kaggle, Time-Series ML}
+\resumeItemListStart
+    \resumeItem{Built behavior classification pipeline for animal tracking data; unofficial rank 24/1481.}
+    \resumeItem{Engineered temporal, motion, curvature, long-range, and pairwise interaction features.}
+    \resumeItem{Ensembled LightGBM, XGBoost, and CatBoost with cross-validation and adaptive thresholding.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Multimodal Product Category Classification (Individual Project)}}{NLP/CV, PhoBERT, EfficientNetB0}
+\resumeItemListStart
+    \resumeItem{Built multimodal classifier on 20K train / 5K test samples using text and images.}
+    \resumeItem{Fine-tuned PhoBERT and EfficientNetB0 branches with GAP + Dense layers.}
+    \resumeItem{Ensembled text-image predictions, improving evaluation score from 0.77895 to 0.92219.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{SKILLS}
+\begin{itemize}[leftmargin=0in, label={}]
+\small{\item{
+ \textbf{Languages}: Python, C++ (strong), Java, JavaScript. \\
+ \textbf{ML/DL/CV}: PyTorch, TensorFlow/Keras, scikit-learn, EfficientNetB0, LightGBM, XGBoost, CatBoost. \\
+ \textbf{NLP/LLM}: PhoBERT, LLM APIs, prompt engineering, semantic search, reasoning workflows. \\
+ \textbf{Tools}: REST APIs, Docker, Git, Linux, MongoDB, Redis.
+}}
+\end{itemize}
+
+\end{document}

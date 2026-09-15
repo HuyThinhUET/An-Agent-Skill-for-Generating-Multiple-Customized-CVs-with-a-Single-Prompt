@@ -1,0 +1,9 @@
+Basic information:
+- Full name: Jordan Lee
+- Email: jordan.lee@example.com
+- Location: Example City, Example Country
+- LinkedIn: https://www.linkedin.com/in/jordan-lee-example
+- GitHub: https://github.com/jordan-lee-example
+- Education: BSc Computer Science, Example University, expected 2027
+
+Use this file as a structure reference only. Replace it locally with verified candidate facts and do not commit a real profile.

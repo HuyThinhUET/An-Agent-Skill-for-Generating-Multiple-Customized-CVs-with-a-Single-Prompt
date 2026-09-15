@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write CV by JD"
+  short_description: "Tailor truthful one-page CVs to job descriptions"
+  default_prompt: "Use $write-cv-by-jd to create a truthful, one-page .tex and PDF CV for every JD in this workspace."
